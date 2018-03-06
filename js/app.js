@@ -45,11 +45,11 @@ function init() {
     });
   });
   // Bind click event for 'Insert Gift Card Class' button.
-  /*document.getElementById('giftcard').addEventListener('click', function() {
+  document.getElementById('giftcard').addEventListener('click', function() {
     $.get('insert?type=giftcard', function(data) {
       console.log(data);
     });
-  });*/
+  });
 
   $.when(
     // Get jwt of loyalty object and render 'Save to Android Pay' button.
@@ -69,7 +69,7 @@ function init() {
       saveToAndroidPay.setAttribute('onfailure', 'failureHandler');
       document.querySelector('#offersave').appendChild(saveToAndroidPay);
       }
-    )/*,
+    ),
     // Get jwt of giftcard object and render 'Save to Android Pay' button.
     $.get('jwt?type=giftcard', function(data) {
       saveToAndroidPay = document.createElement('g:savetoandroidpay');
@@ -78,7 +78,7 @@ function init() {
       saveToAndroidPay.setAttribute('onfailure', 'failureHandler');
       document.querySelector('#giftcardsave').appendChild(saveToAndroidPay);
       }
-    )*/
+    )
     ).done(function() {
       // it will execute after all above ajax requests are successful.
       script = document.createElement('script');
