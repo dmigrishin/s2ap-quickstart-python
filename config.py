@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-SERVICE_ACCOUNT_EMAIL_ADDRESS = 'ServiceAccountEmail@developer.gserviceaccount.com'
-ISSUER_ID = 'IssuerId'
-SERVICE_ACCOUNT_PRIVATE_KEY = 'privatekey.json'
-APPLICATION_NAME = 'ApplicationName'
+SERVICE_ACCOUNT_EMAIL_ADDRESS = 'qronusadmin@qronuspythonapi.iam.gserviceaccount.com'
+ISSUER_ID = '3293346916822849083'
+SERVICE_ACCOUNT_PRIVATE_KEY = 'qronuspythonapi-75cb65967915.json'
+APPLICATION_NAME = 'ApplicationQronus'
 LOYALTY_CLASS_ID = 'LoyaltyClass'
 LOYALTY_OBJECT_ID = 'LoyaltyObject'
 OFFER_CLASS_ID = 'OfferClass'
